@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen+Mono');
-.container {
-  background-color: blue;
-  padding: 5px;
-  margin: 5px;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900');
+body{
+  background-color:#133C55;
 }
 nav{
-  background-color: transparent;
+  text-align: center;
+  background-color: #91E5F6;
   color: black;
   font-size: 30px;
-  padding: 5px;
+  padding: 8px;
+
 }
 ul{
   list-style: none;
   padding: 20px;
+
 }
 li{
   display: inline;
@@ -20,27 +21,44 @@ li{
 }
 a{
   text-decoration: none;
-  color: black;
+  color: white;
   background: transparent;
   padding: 10px;
+  font-family: 'Playfair Display', serif;
   text-align: center;
   font-weight: bold;
   }
 
 a:hover{
-  text-decoration: none;
+  text-decoration: underline;
   cursor:pointer;
 }
+.container {
+  background-color: #59A5D8;
+  padding: 5px;
+}
 
+.home-blurb{
+  width: 100%;
+  height: 200px;
+  background-color: #386FA4;
+}
+.news-blurb{
+  width: 100%;
+  height: 200px;
+  background-color: #84D2F6;
+}
 h1{
   font-size: 65px;
-  color:black;
-  font-family: 'Oxygen Mono', monospace;
+  color:white;
+  font-family: 'Playfair Display', serif;
   text-align: center;
+  padding: 10px;
 }
 h2{
   font-size: 45px;
-  color:black;
-  font-family: 'Oxygen Mono', monospace;
+  color:white;
+  padding: 10px;
+  font-family: 'Playfair Display', serif;
   text-align: center;
 }
