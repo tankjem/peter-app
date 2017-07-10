@@ -7,9 +7,17 @@
   <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
   <script src="app.js"></script>
   <script src="js/controllers/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body ng-controller="MainController as main">
+<nav>
+  <ul>
+    <li><a ui-sref="home">Home</a></li>
+    <li><a ui-sref="about">About</a></li>
+    <li><a ui-sref="contact">Contact</a></li>
+  </ul>
+</nav>
   <main ui-view></main>
 </body>
 </html>
