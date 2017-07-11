@@ -2,41 +2,7 @@
 body{
   background-color:#133C55;
 }
-nav{
-  letter-spacing: 2px;
-  text-shadow: 0 0 4px #000; /* horizontal-offset vertical-offset 'blur' colour */
-    -moz-text-shadow: 0 0 4px #000;
-    -webkit-text-shadow: 0 0 4px #000;
-  text-align: center;
-  background-color: #91E5F6;
-  color: black;
-  font-size: 30px;
-  padding: 10px;
 
-}
-ul{
-  list-style: none;
-  padding: 20px;
-
-}
-li{
-  display: inline;
-  padding:10px;
-}
-a{
-  text-decoration: none;
-  color: white;
-  background: transparent;
-  padding: 10px;
-  font-family: 'Playfair Display', serif;
-  text-align: center;
-  font-weight: bold;
-  }
-
-a:hover{
-  text-decoration: none;
-  cursor:pointer;
-}
 .container {
   background-color: #59A5D8;
   padding: 5px;
@@ -53,7 +19,7 @@ a:hover{
   background-color: #84D2F6;
 }
 h1{
-  text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+  text-shadow: 0 0 2px #000; 
   -moz-text-shadow: 0 0 2px #000;
   -webkit-text-shadow: 0 0 2px #000;
   font-size: 65px;
@@ -72,3 +38,145 @@ h2{
   font-family: 'Playfair Display', serif;
   text-align: center;
 }
+
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+.logo:hover{
+  color: #84D2F6;
+}
+nav{
+  height: 50px;
+}
+
+nav > ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav > ul > li {
+    text-align: center;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+nav > ul li ul li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    position: relative;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li:hover > a {
+    color: #84D2F6;
+}
+nav > ul > li > a {
+    cursor: pointer;
+    display: block;
+    outline: none;
+    width: 100%;
+    height:50px;
+    text-decoration: none;
+}
+
+nav > ul > li {
+    float: left;
+}
+nav a {
+    font-size: 24px;
+    color: white;
+}
+nav > ul li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 90%;
+    z-index: 2000;
+}
+nav > ul li ul li > a {
+    text-decoration: none;
+}
+
+[type="checkbox"], label {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+      display: none;
+  }
+
+  label {
+      display: block;
+      background: #222;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      position: absolute;
+      right: 20px;
+      top: 0px;
+  }
+  
+label:after{
+  content:'';
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #ffffff;
+  margin: 7px 5px;
+  box-shadow: 0px 10px 0px #ffffff, 0px 20px 0px #ffffff;
+}
+
+  [type="checkbox"]:checked ~ ul {
+      display: block;
+      z-index: 9999;
+      position: absolute;
+      right: 20px;
+      left: 20px;
+  }
+
+  nav a {
+      color: #777;
+  }
+
+  nav ul li {
+      display: block;
+      float: none;
+      width: 100%;
+      text-align: left;
+      background: #133C55;
+      text-indent: 20px;
+  }
+
+  nav > ul > li {
+      margin-left: 0px;
+  }
+
+nav > ul li ul li {
+      display: block;
+      float: none;
+  }
+  
+nav > ul li ul {
+      display: block;
+      position: relative;
+      width: 100%;
+      z-index: 9999;
+      float: none;
+}
+
+
+

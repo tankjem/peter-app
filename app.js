@@ -16,6 +16,10 @@ angular
       .state("contact", {
         url: "/contact",
         templateUrl: "templates/contact.html"
+      })   
+      .state("work", {
+        url: "/work",
+        templateUrl: "templates/work.html"
       });   
          
     $urlRouterProvider.otherwise("/")
