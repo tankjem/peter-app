@@ -14,9 +14,10 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body ng-controller="MainController as main">
+<header>
   <nav>
     <a ui-sref="home" class="logo">Peter O'Hanlon</a>
-    <input type="checkbox" id="nav" /><label for="nav"></label>
+    
     <ul>
       <li><a ui-sref="home">Home</a></li>       
       <li>
@@ -28,7 +29,7 @@
       <li><a ui-sref="contact">Contact</a></li>
     </ul>
   </nav>
-
+</header>
     <main ui-view></main>
 
 </body>
