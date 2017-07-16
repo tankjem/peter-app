@@ -25,12 +25,32 @@ body{
   background-color: #84D2F6;
   padding: 15px;
 }
+.profile-pic{
+  width: 100%;
+  height: auto;
+  float: left;
+  padding: 25px;
+  display: inline-block;
+  position:fixed;
+}
+.about-blurb{
+  font-size: 24px;
+  height: 500px;
+  width:570px;
+  /*position: relative;*/
+  float: right;
+  /*display: inline-block;*/
+  /*overflow: hidden;*/
+  /*padding: 15px;*/
+}
+
 p{
   font-size: 24px;
-  text-align: center;
   padding: 20px;
   text-align: left;
+  font-family: 'Playfair Display', serif;
 }
+
 footer{
   width: 100%;
   margin: 20px;
