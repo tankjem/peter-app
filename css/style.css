@@ -17,26 +17,19 @@ body {
 
 #home-pics{
   text-align: center;
-  margin:2px;
-  background-color: transparent; 
+  margin: 2px;
+  padding:15px;
+  background-color: #386FA4;
 }
 
 .container-fluid {
   width: 100%;
   background-color: #59A5D8;
 }
-/*img{
-  display: inline-block;
-}*/
-/*.thumbnail{
-  width:300px;
-  height:300px;
-}*/
 .home-blurb{
   width: 100%;
   height: 200px;
   background-color: #386FA4;
-  /*padding: 25px;*/
 }
 #news-blurb{
   background-color: transparent;
@@ -46,23 +39,28 @@ body {
   font-size: 24px;
   height: 500px;
   text-align: center;
-  /*padding: 15px;*/
-  /*margin: 5px;*/
+  background-color: #386FA4;
   
 }
 #peter-about-pic{
   width: 500px;
-  height:500px;
+  height:490px;
   float: left;
   margin:2px;
   padding: 5px;
 }
+.thumbnail{
+  background-color: #386FA4;
+}
 
 p{
   font-size: 26px;
-  /*padding: 20px;*/
-  text-align: left;
+  text-align: center;
   font-family: 'Playfair Display', serif;
+}
+img{
+  width: 100%;
+  height: auto;
 }
 
 footer{
@@ -97,7 +95,6 @@ h3 {
   font-size: 40px;
   color:white;
   font-weight: 600;
-  /*padding: 10px;*/
   font-family: 'Playfair Display', serif;
   text-align: center;
 }
@@ -126,5 +123,4 @@ h3 {
   background-color: #133C55;
   font-weight: 400;
   width: 100%;
-  /*border-radius: none;*/
 }
