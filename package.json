@@ -1,0 +1,23 @@
+{
+  "name": "peter-app",
+  "version": "1.0.0",
+  "description": "Peter O'Hanlon",
+  "main": "app.js",
+  "dependencies": {
+    "angular-ui-bootstrap": "^2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tankjem/peter-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tankjem/peter-app/issues"
+  },
+  "homepage": "https://github.com/tankjem/peter-app#readme"
+}

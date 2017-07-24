@@ -8,44 +8,51 @@ body{
   color: white;
   overflow-x: hidden;
 }
-
-.container {
+#home-pics{
+  text-align: center;
+  margin:2px;
+  background-color:transparent; 
+}
+#work-pics{
+  text-align: center;
+  margin:2px;
+  background-color:transparent;
+}
+.container-fluid {
   width: 100%;
   background-color: #59A5D8;
 }
-
+img{
+  display: inline-block;
+}
 .home-blurb{
   width: 100%;
   height: 200px;
   background-color: #386FA4;
-  padding: 25px;
+  /*padding: 25px;*/
 }
-.news-blurb{
-  width: 100%;
-  background-color: #84D2F6;
-  padding: 15px;
+#news-blurb{
+  background-color: transparent;
 }
-.profile-pic{
-  width: 100%;
-  height: auto;
-  float: left;
-  padding: 25px;
-  display: inline-block;
-  position:fixed;
-}
+
 .about-blurb{
   font-size: 24px;
   height: 500px;
-  width:570px;
-  /*position: relative;*/
-  float: right;
-  /*display: inline-block;*/
-  /*overflow: hidden;*/
-  /*padding: 15px;*/
+  text-align: center;
+  /*width:570px;*/
+  /*float: right;*/
+  
+}
+#peter-about-pic{
+  width: 500px;
+  height:500px;
+  float: left;
+  margin:2px;
+  padding: 5px;
 }
 
 p{
-  font-size: 24px;
+  font-size: 26px;
   padding: 20px;
   text-align: left;
   font-family: 'Playfair Display', serif;
@@ -86,89 +93,30 @@ h3 {
   font-family: 'Playfair Display', serif;
   text-align: center;
 }
+.horizontal-collapse {
+    height: 70px;
+  }
+.navbar-collapse.in {
+    overflow-y: hidden;
+  }
 
-
-.logo {
+.navbar-brand {
     text-decoration: none;
     color: #133C55;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    margin-left: 2px;
-    font-size: 30px;
-    line-height: 40px;
-    letter-spacing: 3px;
+    font-size:25px;
+    
 }
-.logo:hover{
+.navbar-brand:hover{
   color: white;
 }
-header{
-  padding: 25px;
-}
-nav{
+
+.navbar{
   font-family: 'Playfair Display', serif;
   font-size: 24px;
-  color: #133C55;
+  background-color: #133C55;
   font-weight: 400;
-  position: fixed;
-  margin-bottom: 25px;
-  top: 0;
-  left: 0;
   width: 100%;
+  /*border-radius: none;*/
 }
- ul {
-    float: right;
-    margin-right: 40px;
-}
-
-nav > ul > li {
-    text-align: center;
-    line-height: 40px;
-    margin-left: 40px;
-}
-
-/*nav > ul li ul li {
-    width: 100%;
-    text-align: center;
-}*/
-
-nav ul li:hover {
-    cursor: pointer;
-    position: relative;
-}
-nav ul li:hover > ul {
-    display: block;
-}
-nav ul li:hover > a {
-    color: white;
-}
-nav > ul > li > a {
-    cursor: pointer;
-    display: block;
-    outline: none;
-    width: 100%;
-    height:50px;
-    text-decoration: none;
-}
-
-nav > ul > li {
-    float: left;
-}
-nav a {
-  font-family: 'Playfair Display', serif;
-  font-size: 24px;
-  color: #133C55;
-  font-weight: 400;
-}
-nav > ul li ul {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 90%;
-    z-index: 2000;
-}
-nav > ul li ul li > a {
-    text-decoration: none;
-}
-
-
