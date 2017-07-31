@@ -9,10 +9,6 @@ angular
         url: "/",
         templateUrl: "templates/home.html"
       })
-      .state("about", {
-        url: "/about",
-        templateUrl: "templates/about.html"
-      })
       .state("contact", {
         url: "/contact",
         templateUrl: "templates/contact.html"
