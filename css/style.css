@@ -16,25 +16,46 @@ body {
 }
 
 #home-pics{
-  text-align: center;
   width:100%;
-  margin: 1px;
-  padding:15px;
-  background-color: #386FA4;
+  height: 800px;
+  background:url(https://peterohanlon.files.wordpress.com/2016/06/img_2999.jpg);
+  /*background-attachment:fixed;*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#home-pics-1{
+  width:100%;
+  height: 800px;
+  background:url(https://peterohanlon.files.wordpress.com/2017/07/poznan.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+#home-pics-2{
+  width:100%;
+  height: 800px;
+  background:url(https://peterohanlon.files.wordpress.com/2017/02/img_3662.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /*background-attachment: fixed;*/
 }
 
 #news-blurb{
   /*text-align: left;*/
   background-color: transparent;
-  padding: 15px;
+  /*padding: 15px;*/
   /*margin: 2px;*/
 }
 #banner{
   /*background-attachment: fixed;*/
   background-color: #133C55;
- 
+ padding: 5px;
   width: 100%;
-  
+  border-style: 5px solid #fff;
+  /*height: 500px;*/
   height: auto;
   z-index: 10;
 }
@@ -58,10 +79,11 @@ body {
   background-color: #386FA4;
 }
 .banner-news{
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Playfair Display', serif;
   padding: 15px;
+  margin: 5px;
   /*float: left;*/
 }
 
@@ -71,8 +93,8 @@ p{
   font-family: 'Playfair Display', serif;
 }
 img{
-  width: 250px;
-  height: 200px;
+  width: 100%;
+  height: auto;
 
 }
 
@@ -82,11 +104,11 @@ footer{
   text-align: left
 }
 h1{
-  text-shadow: 0 0 8px #000; 
-  -moz-text-shadow: 0 0 5px #000;
-  -webkit-text-shadow: 0 0 5px #000;
+  text-shadow: 0 0 8px #fff; 
+  -moz-text-shadow: 0 0 5px #fff;
+  -webkit-text-shadow: 0 0 5px #fff;
   font-size: 65px;
-  color:white;
+  color:black;
   font-family: 'Playfair Display', serif;
   font-weight: 600;
   text-align: center;
@@ -94,11 +116,12 @@ h1{
   margin-top: 45px;
 }
 h2{
-  text-shadow: 0 0 6px #000;
-  -moz-text-shadow: 0 0 2px #000;
-  -webkit-text-shadow: 0 0 2px #000;
+  text-shadow: 0 0 6px #fff;
+  -moz-text-shadow: 0 0 2px #fff;
+  -webkit-text-shadow: 0 0 2px #fff;
   font-size: 45px;
-  color:white;
+  font-weight: 600;
+  color:#000;
   padding: 10px;
   font-family: 'Playfair Display', serif;
   text-align: center;
@@ -144,10 +167,10 @@ h3 {
 
 
 li>a{
-  color: black;
+  color: white;
   font-weight: 400;
   font-family: 'Playfair Display', serif;
 }
 .thumbnail{
-  border-color: black;
+  border-color: transparent;
 }
