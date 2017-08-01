@@ -1,5 +1,5 @@
 angular
-  .module("PeterApp", ['ui.router', 'ngSanitize', 'ui.bootstrap'])
+  .module("PeterApp", ['ui.router', 'ngSanitize', 'youtube-embed', 'ui.bootstrap'])
   .config(Router);
 
   Router.$inject = ["$stateProvider", "$urlRouterProvider"]
