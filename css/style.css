@@ -14,7 +14,7 @@ body {
   background-color:#386FA4;
   color: white;
 }
-.home-pics, .home-pics-1, .home-pics-2{
+.home-pics, .home-pics-1{
   position: relative;
     /*opacity: 0.9;*/
     background-attachment: fixed;
@@ -43,15 +43,14 @@ body {
   background-size: cover;
   
 }
-.home-pics-2{
+/*.home-pics-2{
   width:100%;
   min-height: 500px;
   background:url(https://peterohanlon.files.wordpress.com/2017/02/img_3662.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  /*background-attachment: fixed;*/
-}
+}*/
 
 #news-blurb{
   /*text-align: left;*/
@@ -106,7 +105,6 @@ body {
   /*border-style: 5px solid white;*/
 
 }
-
 
 p{
   font-size: 26px;
