@@ -13,6 +13,10 @@ angular
         url: "/contact",
         templateUrl: "templates/contact.html"
       })   
+      .state("blog", {
+        url: "/blog",
+        templateUrl: "templates/blog.html"
+      })   
       .state("work", {
         url: "/work",
         templateUrl: "templates/work.html"
